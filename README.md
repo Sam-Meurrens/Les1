@@ -1,2 +1,2 @@
-# Les1 Sam Meurrens
-Zelf voorstellen
+# Mobile and internet 1
+Sam Meurrens
