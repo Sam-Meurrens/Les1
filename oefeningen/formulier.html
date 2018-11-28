@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<style>
+
+</style>
+<title>Formulier</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Form</h1>
+    <p>Opdracht 33</p>
+    
+<form>
+  Voornaam:<br>
+  <input type="text" name="firstname">
+  <br>
+  Naam:<br>
+  <input type="text" name="lastname"><br><br>
+    
+  <h3>Geslacht:</h3>
+    
+  <label for="man">Man</label>
+  <input type="radio" name="geslacht" id="man" value="man"><br>
+  <label for="vrouw">Vrouw</label>
+  <input type="radio" name="geslacht" id="vrouw" value="vrouw"><br>
+  <label for="andere">Andere</label>
+  <input type="radio" name="geslacht" id="andere" value="andere"><br><br>
+  
+   Geboortedatum:
+  <input type="date" name="geboortedatum"><br><br>
+    
+    Favoriete vakken:<br>
+    <select name="vakken" multiple>
+    <option value="appdev">Application Development</option>
+    <option value="comtraining">Communicaietraining</option>
+    <option value="comtrainingfr">Communicatietrining: Frans</option>
+    <option value="datadev">Database Development</option>
+    <option value="business">ICT Business Projects and Trends</option>
+    <option value="information">Information Management</option>
+    <option value="mobile">Mobile and Internet</option>
+    <option value="network">Network Management</option>
+    <option value="software">Software Engineering</option>
+    <option value="system">System Management</option>
+  </select>
+  <br><br>
+    
+    Beoogde punten MI1:<br>
+    Punten:
+    10
+  <input type="range" name="points" min="10" max="20">
+    20 <br><br>
+    
+    Leukste dagen van de week:<br>
+  <input type="checkbox" name="dag1" value="maandag">Maandag
+<br>
+  <input type="checkbox" name="dag2" value="dinsdag">Dinsdag
+<br>
+  <input type="checkbox" name="dag3" value="woensdag">Woensdag
+<br>
+  <input type="checkbox" name="dag4" value="donderdag">Donderdag
+<br>
+  <input type="checkbox" name="dag5" value="vrijdag">Vrijdag
+<br>
+  <input type="checkbox" name="dag6" value="zaterdag">Zaterdag
+<br>
+  <input type="checkbox" name="dag7" value="zondag">Zondag
+<br>
+    
+    Opmerkingen:<br>
+    <textarea name="opmerkingen" style="width:20em; height:15em"></textarea><br>
+    
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
