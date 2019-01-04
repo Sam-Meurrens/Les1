@@ -13,6 +13,12 @@ body{
     overflow:hidden;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header{
     background:aqua;
     padding-top:30px;
@@ -63,7 +69,7 @@ header a:hover{
 
 #hoofdtekst{
     min-height:400px;
-    background:url('landschap.jpg') no-repeat 0 -200;
+    background:url('landschap.jpg') no-repeat 0;
     text-align: center;
     color: white;
 }
