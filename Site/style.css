@@ -63,7 +63,7 @@ header a:hover{
 
 #hoofdtekst{
     min-height:400px;
-    background:url('../img/landschap.jpg') no-repeat 0 -200;
+    background:url('landschap.jpg') no-repeat 0 -200;
     text-align: center;
     color: white;
 }
